@@ -4,136 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Adeel Anwar - Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
-        /* Simple icon placeholders - replace with actual SVGs or font icons if desired */
-        .icon-email::before { content: "📧"; margin-right: 0.5rem; }
-        .icon-phone::before { content: "📞"; margin-right: 0.5rem; }
-        .icon-location::before { content: "📍"; margin-right: 0.5rem; }
-        .section-title {
-            border-bottom: 2px solid #60A5FA; /* Tailwind blue-400 */
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-        .card {
-            background-color: white;
-            border-radius: 0.75rem; /* rounded-xl */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-lg */
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </head>
-<body class="bg-gray-100 text-gray-800 leading-relaxed">
-
-    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-8 md:p-12 text-center shadow-lg">
-        <div class="container mx-auto">
-            <h1 class="text-4xl md:text-5xl font-bold mb-2">Muhammad Adeel Anwar</h1>
-            <p class="text-xl md:text-2xl font-light mb-1">Full Stack Developer | Principal Software Engineer</p>
-            <p class="text-md md:text-lg font-light italic">Expert in Python, Django, FastAPI, JavaScript (VueJS/ReactJS), and Cloud Solutions</p>
-            <div class="mt-6 flex flex-wrap justify-center items-center space-x-0 md:space-x-6 space-y-2 md:space-y-0 text-sm md:text-base">
-                <a href="mailto:adeel.aarbi92@gmail.com" class="flex items-center hover:text-blue-200 transition duration-300 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 
-1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
-                    adeel.aarbi92@gmail.com
-                </a>
-                <a href="tel:+923074426117" class="flex items-center hover:text-blue-200 transition duration-300 p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 
-1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
-                    +92-307-4426117
-                </a>
-                <span class="flex items-center p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 
-7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg>
-                    Lahore, Pakistan
-                </span>
+<body>
+    <main class="container-fluid">
+        <div class="row g-4">
+            <div class="col-md-4 bg-dark-subtle p-4">
+                <figure class="card-header rounded-0">
+                        <blockquote class="blockquote">
+                            <h1 
+                            class="fs-4"
+                            >
+                            <a href="https://www.linkedin.com/in/muhammad-adeel-anwar-699967199" target="_blank">
+                                 <i class="fa-brands fa-linkedin"></i>
+                             </a>
+                             Muhammad Adeel Anwar 
+                        </h1>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0">
+                            <cite title="Full Stack Developer">Full Stack Developer</cite> | Principal Software Engineer
+                        </figcaption>
+                    </figure>
+                    <ul class="list-group list-group-flush mt-3">
+                        <li class="list-group-item bg-dark-subtle px-0">
+                            <a href="mailto:adeel.aarbi92@gmail.com" class="flex items-center hover:text-blue-200 transition duration-300 p-2">
+                                <i class="fa-solid fa-envelope me-2"></i>
+                                adeel.aarbi92@gmail.com
+                            </a>
+                        </li>
+                        <li class="list-group-item bg-dark-subtle px-0">
+                            <a href="tel:+923074426117" class="flex items-center hover:text-blue-200 transition duration-300 p-2">
+                                <i class="fa-solid fa-phone me-2"></i>
+                                +92-307-4426117
+                            </a>
+                        </li>
+                        <li class="list-group-item bg-dark-subtle px-0">
+                            <span class="flex items-center p-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lahore, Pakistan
+                            </span>
+                        </li>
+                    </ul>
             </div>
-        </div>
-    </header>
-
-    <main class="container mx-auto p-6 md:p-10">
-
-        <section id="summary" class="mb-10 md:mb-12 card p-6 md:p-8">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-4 section-title">Professional Summary</h2>
-            <p class="text-gray-700 text-base md:text-lg">
-                Full Stack Developer with 7+ years of experience designing, developing, and deploying scalable web applications. Proven expertise in Python (Django, FastAPI), JavaScript (VueJS, 
+            <div class="col-md-8" style="background-color: rgba(33, 37, 41, 0.03);">
+<section class="card border-0 rounded-0">
+            <h2 class="card-header bg-secondary-subtle text-secondary fs-3 rounded-0">Professional Summary</h2>
+            <p class="card-body">
+                Full Stack Developer with around 8 years of experience designing, developing, and deploying scalable web applications. Proven expertise in Python (Django, FastAPI), JavaScript (NodeJs, VueJS, 
 ReactJS, Next.js, Nuxt.js), and cloud platforms (AWS, Azure Databricks). Strong leadership in guiding cross-functional teams, optimizing system performance, and delivering high-impact solutions.
             </p>
         </section>
 
-        <section id="skills" class="mb-10 md:mb-12 card p-6 md:p-8">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6 section-title">Technical Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="p-4 bg-gray-50 rounded-lg shadow">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">Backend</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>FastAPI</li>
-                        <li>Flask</li>
+        <section class="card mt-3 border-0 rounded-0">
+            <h2 class="card-header bg-secondary-subtle text-secondary fs-3 rounded-0">Technical Skills</h2>
+            <div class="row g-3 card-body">
+                <div class="col-md-4">
+                    <div class="card rounded-0">
+                    <h3 class="card-header fs-5 rounded-0">Backend</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">Django</li>
+                        <li class="list-group-item">FastAPI</li>
+                        <li class="list-group-item">Flask</li>
+                        <li class="list-group-item">NodeJs</li>
+                        <li class="list-group-item">Next.js</li>
+                        <li class="list-group-item">Nuxt.js</li>
                     </ul>
+                    </div>
                 </div>
-                <div class="p-4 bg-gray-50 rounded-lg shadow">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">Frontend</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>JavaScript</li>
-                        <li>VueJS</li>
-                        <li>ReactJS</li>
-                        <li>Next.js</li>
-                        <li>Nuxt.js</li>
-                        <li>Ant Design</li>
-                        <li>Chakra UI</li>
+                <div class="col-md-4">
+                    <div class="card h-100 rounded-0">
+                        <h3 class="card-header fs-5 rounded-0">Frontend</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">VueJS</li>
+                        <li class="list-group-item">ReactJS</li>
+                        <li class="list-group-item">MUI</li> 
+                        <li class="list-group-item">Ant Design</li>
+                        <li class="list-group-item">Chakra UI</li>
                     </ul>
+                    </div>
                 </div>
-                <div class="p-4 bg-gray-50 rounded-lg shadow">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">Databases</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>PostgreSQL</li>
-                        <li>MySQL</li>
-                        <li>MongoDB</li>
-                        <li>SQL Server</li>
+                <div class="col-md-4">
+                    <div class="card h-100 rounded-0">
+                        <h3 class="card-header fs-5 rounded-0">Databases</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">PostgreSQL</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">MongoDB</li>
+                        <li class="list-group-item">SQL Server</li>
                     </ul>
+                    </div>
                 </div>
-                <div class="p-4 bg-gray-50 rounded-lg shadow">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">DevOps & Cloud</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>AWS EC2</li>
-                        <li>Azure</li>
-                        <li>GCS</li>
-                        <li>Jenkins</li>
-                        <li>Linode</li>
-                        <li>Docker</li>
+                <div class="col-md-4">
+                    <div class="card rounded-0">
+                        <h3 class="fs-5 card-header rounded-0">DevOps & Cloud</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">AWS EC2</li>
+                        <li class="list-group-item">Azure</li>
+                        <li class="list-group-item">GCS</li>
+                        <li class="list-group-item">Vercel</li>
+                        <li class="list-group-item">Docker</li>
                     </ul>
-                </div>
-                <div class="p-4 bg-gray-50 rounded-lg shadow">
-                    <h3 class="text-lg font-semibold text-indigo-600 mb-2">AI/ML Tools</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-1">
-                        <li>OpenAI</li>
-                        <li>AWS Transcribe (for NLP applications)</li>
-                    </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="mb-10 md:mb-12">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6 section-title">Work Experience</h2>
-            <div class="space-y-8">
-                <article class="card p-6 md:p-8">
-                    <header class="mb-3">
-                        <h3 class="text-xl md:text-2xl font-semibold text-indigo-700">Principal Software Engineer | Full Stack Developer</h3>
-                        <p class="text-md text-gray-600">Codefulcrum | Aug 2022 - Present</p>
-                    </header>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-base">
+        <section class="card mt-3 border-0 rounded-0">
+            <h2 class="card-header bg-secondary-subtle text-secondary fs-3 rounded-0">Work Experience</h2>
+            <div class="card-body">
+                <div class="card mb-3 rounded-0">
+                    <figure class="card-header rounded-0">
+                        <blockquote class="blockquote">
+                            <p>Principal Software Engineer | Full Stack Developer</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0">
+                            <cite title="Codefulcrum">Codefulcrum</cite> | Aug 2022 - Present
+                        </figcaption>
+                    </figure>
+                    <ul class="list-unstyled card-body">
                         <li>Customized <a href="https://openedx.org" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">https://openedx.org</a>.
-                            <ul class="list-circle list-inside ml-5 mt-1 text-sm text-gray-600">
+                            <ul>
                                 <li>Tech Stack: Django, Ansibles, CI/CD pipeline, Jenkins</li>
                                 <li>Key Contributions: Customised its UI according to client requirements.</li>
                             </ul>
@@ -146,30 +140,38 @@ ReactJS, Next.js, Nuxt.js), and cloud platforms (AWS, Azure Databricks). Strong 
                         </li>
                         <li>Spearheaded cross-functional collaboration, ensuring seamless integration and project delivery.</li>
                     </ul>
-                </article>
+                </div>
 
-                <article class="card p-6 md:p-8">
-                    <header class="mb-3">
-                        <h3 class="text-xl md:text-2xl font-semibold text-indigo-700">Senior Software Engineer | Full Stack Developer</h3>
-                        <p class="text-md text-gray-600">FiveRivers | Dec 2019 - Sep 2022</p>
-                    </header>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-base">
+                <div class="card mb-3 rounded-0">
+                    <figure class="card-header rounded-0">
+                        <blockquote class="blockquote">
+                            <p>Senior Software Engineer | Full Stack Developer</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0">
+                            <cite title="FiveRivers">FiveRivers</cite> | Dec 2019 - Aug 2022
+                        </figcaption>
+                    </figure>
+                    <ul class="list-unstyled card-body">
                         <li>Developed Finde, a Windows OS search application to search for objects in images, audio files, and file paths.
-                            <ul class="list-circle list-inside ml-5 mt-1 text-sm text-gray-600">
+                            <ul>
                                 <li>Tech Stack: FastAPI, ReactJs, ElectronJs, Sqlite</li>
                             </ul>
                         </li>
                         <li>Leadership: Supervised a dev team, ensuring on-time delivery and system scalability.</li>
                         <li>Mentored junior developers, improving code quality and team productivity.</li>
                     </ul>
-                </article>
+                </div>
 
-                <article class="card p-6 md:p-8">
-                    <header class="mb-3">
-                        <h3 class="text-xl md:text-2xl font-semibold text-indigo-700">Software Engineer | Full Stack Developer</h3>
-                        <p class="text-md text-gray-600">SolutionDot | Jul 2017 - Dec 2019</p>
-                    </header>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2 text-base">
+                <div class="card mb-3 rounded-0">
+                    <figure class="card-header rounded-0">
+                        <blockquote class="blockquote">
+                            <p>Software Engineer | Full Stack Developer</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer mb-0">
+                            <cite title="SolutionDots">SolutionDots</cite> | Jul 2017 - Dec 2019
+                        </figcaption>
+                    </figure>
+                    <ul class="list-unstyled card-body">
                         <li>Built Activity Monitoring Application, which included screenshots, audio, keystrokes, file changes, and browser history for Windows users.
                              <ul class="list-circle list-inside ml-5 mt-1 text-sm text-gray-600">
                                 <li>Tech Stack: Django, Angular, Postgres, MongoDB, Ubuntu Server</li>
@@ -177,35 +179,51 @@ ReactJS, Next.js, Nuxt.js), and cloud platforms (AWS, Azure Databricks). Strong 
                         </li>
                         <li>Role: API development, frontend optimization, cloud deployment.</li>
                     </ul>
-                </article>
-            </div>
-        </section>
-
-        <section id="education" class="mb-10 md:mb-12 card p-6 md:p-8">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6 section-title">Education</h2>
-            <div class="space-y-4">
-                <div>
-                    <h3 class="text-lg font-semibold text-indigo-700">Master of Computer Science</h3>
-                    <p class="text-gray-600">Global Institute, Lahore</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-semibold text-indigo-700">B.Sc (Computer Science)</h3>
-                    <p class="text-gray-600">Punjab University, Lahore</p>
                 </div>
             </div>
         </section>
 
-        <section id="achievements" class="card p-6 md:p-8">
-            <h2 class="text-2xl md:text-3xl font-semibold text-blue-600 mb-6 section-title">Achievements</h2>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 text-base">
+        <section id="education" class="card mt-3 border-0 rounded-0">
+            <h2 class="card-header bg-secondary-subtle text-secondary fs-3 rounded-0">Education</h2>
+            <div class="card-body">
+                <figure>
+                        <blockquote class="blockquote">
+                            <p>Master of Computer Science</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Global Institute, Lahore">Global Institute, Lahore</cite> | 2013-2015
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p>B.Sc (Computer Science)</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Global Institute, Lahore">Punjab University, Lahore</cite> | 2011-2013
+                        </figcaption>
+                    </figure>
+            </div>
+        </section>
+
+        <section id="achievements" class="card mt-3 border-0 rounded-0">
+            <h2 class="card-header bg-secondary-subtle text-secondary fs-3 rounded-0">Achievements</h2>
+            <div class="card-body">
+                <ul>
                 <li>Led 3+ high-impact projects from concept to deployment.</li>
                 </ul>
+            </div>
         </section>
+
+            </div>
+        </div>
+
+        
     </main>
 
-    <footer class="text-center p-6 mt-10 md:mt-12 bg-gray-800 text-gray-300">
+    <!-- <footer class="text-center p-6 mt-10 md:mt-12 bg-gray-800 text-gray-300">
         <p>&copy; <span id="currentYear"></span> Muhammad Adeel Anwar. All rights reserved.</p>
-    </footer>
+    </footer> -->
 
     <script>
         // Set current year in footer
